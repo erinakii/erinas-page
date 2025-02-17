@@ -2,20 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Default colors */
 :root {
-  --background: #ffffff;
+  --background: #fefefe;
+  /* Half light gray and half white */
   --foreground: #171717;
+  /* Dark text */
 }
 
-@media (prefers-color-scheme: dark) {
+/* Colors for light mode (will apply to light preference) */
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #fefefe;
+    /* Half light gray and half white */
+    --foreground: #171717;
+    /* Dark text */
   }
 }
 
+/* Apply background and foreground colors to the body */
 body {
   color: var(--foreground);
   background: var(--background);
+  /* Using gradient background */
   font-family: Arial, Helvetica, sans-serif;
 }

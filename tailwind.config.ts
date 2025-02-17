@@ -11,7 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+        "light-orange": "#ffedd5"
+      }
     },
   },
   plugins: [],
