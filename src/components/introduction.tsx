@@ -23,7 +23,7 @@ export const Introduction = () => {
                 Current software engineer at Wayfair working on the frontend for cart and checkout
             </Typography>
             <Typography component="p" gutterBottom>
-                I started off doing genetics research where I became super interested in learning how to code. Now I get to do it for a living!
+                I used to do genetics research where I became super interested in learning how to code. Now I get to do it for a living!
             </Typography>
             <Typography component="p" gutterBottom>
                 In my free time, I like to hike, sing, and play video games. I also recently got into boxing.
