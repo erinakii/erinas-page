@@ -1,8 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Typography, Fade, Link } from '@mui/material';
+import { Typography, Fade, Link, useTheme } from '@mui/material';
 
 export const Introduction = () => {
+    const theme = useTheme();
     const [visible, setVisible] = useState(false);
 
     useEffect(() => {
@@ -12,15 +13,15 @@ export const Introduction = () => {
     return (
         <div>
             <Fade in={visible} timeout={2000}>
-                <Typography variant="h1">
+                <Typography variant="h1" sx={{ fontSize: { xs: "2rem", sm: "2rem", md: "3rem" } }}>
                     Hello There!
                 </Typography>
             </Fade>
-            <Typography variant="h2" gutterBottom>
+            <Typography variant="h2" sx={{ fontSize: { xs: "2rem", sm: "2rem", md: "3rem" } }} gutterBottom>
                 My name is えりな (Erina).
             </Typography>
             <Typography component="p" gutterBottom>
-                Current software engineer at Wayfair working on the frontend for cart and checkout
+                Current software engineer at Wayfair working on frontend experience for cart and checkout.
             </Typography>
             <br />
             <Typography component="p" gutterBottom>
@@ -28,7 +29,7 @@ export const Introduction = () => {
             </Typography>
             <br />
             <Typography component="p" gutterBottom>
-                In my free time, I like to hike, sing, and play video games. I also recently got into boxing.
+                In my free time, I like to hike, sing, and play video games. I also recently started boxing.
             </Typography>
             <br />
             <Typography component="p" gutterBottom>
