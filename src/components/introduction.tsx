@@ -22,9 +22,11 @@ export const Introduction = () => {
             <Typography component="p" gutterBottom>
                 Current software engineer at Wayfair working on the frontend for cart and checkout
             </Typography>
+            <br />
             <Typography component="p" gutterBottom>
                 I used to do genetics research where I became super interested in learning how to code. Now I get to do it for a living!
             </Typography>
+            <br />
             <Typography component="p" gutterBottom>
                 In my free time, I like to hike, sing, and play video games. I also recently got into boxing.
             </Typography>
