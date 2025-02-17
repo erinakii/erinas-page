@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Typography, Fade } from '@mui/material';
+import { Typography, Fade, Link } from '@mui/material';
 
 export const Introduction = () => {
     const [visible, setVisible] = useState(false);
@@ -29,6 +29,10 @@ export const Introduction = () => {
             <br />
             <Typography component="p" gutterBottom>
                 In my free time, I like to hike, sing, and play video games. I also recently got into boxing.
+            </Typography>
+            <br />
+            <Typography component="p" gutterBottom>
+                See my <Link href="/resume/erina-resume.pdf">resume</Link> for more!
             </Typography>
         </div>
     )
