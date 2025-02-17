@@ -1,9 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
-import { Typography, Fade, Link, useTheme } from '@mui/material';
+import { Typography, Fade, Link } from '@mui/material';
 
 export const Introduction = () => {
-    const theme = useTheme();
     const [visible, setVisible] = useState(false);
 
     useEffect(() => {
