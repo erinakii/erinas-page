@@ -4,6 +4,7 @@ import { ThemeProvider } from '@mui/material';
 import { Montserrat } from 'next/font/google';
 import { Darumadrop_One } from 'next/font/google';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const darumadrop = Darumadrop_One({
   weight: '400', // Only available in 400 weight
   subsets: ['latin'],

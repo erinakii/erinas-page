@@ -1,4 +1,4 @@
-import { Divider, Box, Typography } from "@mui/material";
+import { Divider, Box } from "@mui/material";
 import Image from "next/image";
 
 export const AboutMeImage = () => {
