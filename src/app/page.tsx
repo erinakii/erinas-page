@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <main>
-        <Container sx={{ px: 2, my: 4 }}>
+        <Container sx={{ px: 2, my: 2 }}>
           <Grid container spacing={2}>
             <Grid size={{ xs: 12, md: 12 }}>
               <AboutMeImage />
