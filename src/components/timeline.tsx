@@ -9,9 +9,7 @@ import { Typography } from '@mui/material';
 export const WorkTimeLine = () => {
     return (
         <>
-            <Typography
-                variant='h4'
-            >
+            <Typography variant='h4'>
                 Work Experience
             </Typography>
             <Timeline
@@ -66,13 +64,33 @@ export const WorkTimeLine = () => {
                         <div>May 2014 - Feb 2017</div>
                     </TimelineContent>
                 </TimelineItem>
-                Vassar College
+            </Timeline>
+            <Typography variant='h4'>
+                Education
+            </Typography>
+            <Timeline
+                sx={{
+                    [`& .${timelineItemClasses.root}:before`]: {
+                        flex: 0,
+                        padding: 0,
+                    },
+                }}
+            >
+                <TimelineItem>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Typography sx={{ fontWeight: 'bold' }}> Fullstack Academy 2019</Typography>
+                    </TimelineContent>
+                </TimelineItem>
                 <TimelineItem>
                     <TimelineSeparator>
                         <TimelineDot />
                     </TimelineSeparator>
                     <TimelineContent>
-                        <div>Graduated 2014</div>
+                        <Typography sx={{ fontWeight: 'bold' }}>Vassar College 2014</Typography>
                     </TimelineContent>
                 </TimelineItem>
             </Timeline>
