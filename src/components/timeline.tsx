@@ -83,6 +83,7 @@ export const WorkTimeLine = () => {
                     </TimelineSeparator>
                     <TimelineContent>
                         <Typography sx={{ fontWeight: 'bold' }}> Fullstack Academy 2019</Typography>
+                        <div>Web Development Certificate</div>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
@@ -91,6 +92,7 @@ export const WorkTimeLine = () => {
                     </TimelineSeparator>
                     <TimelineContent>
                         <Typography sx={{ fontWeight: 'bold' }}>Vassar College 2014</Typography>
+                        <div>Bachelor of Arts in Biology</div>
                     </TimelineContent>
                 </TimelineItem>
             </Timeline>
