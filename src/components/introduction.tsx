@@ -31,8 +31,14 @@ export const Introduction = () => {
                 In my free time, I like to hike, sing, and play video games. I also recently started boxing.
             </Typography>
             <br />
+            <Typography variant="h2">
+                Contact Me
+            </Typography>
             <Typography component="p" gutterBottom>
                 See my <Link href="/resume/erina-resume.pdf">resume</Link> for more!
+            </Typography>
+            <Typography component="p" gutterBottom>
+                Contact me at erina.kii92@gmail.com or <Link href="https://www.linkedin.com/in/erina-kii98065/">linkedin</Link>
             </Typography>
         </div>
     )
